@@ -1,0 +1,60 @@
+.Header{
+    width: 100%;
+}
+
+svg{
+    fill: white;
+    margin: 0px 10px;
+}
+
+.HeaderTop{
+    background-color: #D04423;
+    width: 100%;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.HeaderTopRight{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    height: 100%;
+}
+
+.FakeSearch{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    background-color: rgba(255,255,255,0.3);
+    height: 75%;
+    width: 300px;
+    margin: 0px 30px;
+}
+
+.FakeSearchText{
+    color: #D04423;
+}
+
+.HeaderName{
+    margin: 0px 30px;
+}
+
+.HeaderBottom{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+}
+
+.TopNavLink{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px 10px;
+}
