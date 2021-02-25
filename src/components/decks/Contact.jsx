@@ -8,7 +8,7 @@ function Reblog () {
  
     return (
       <div className="Deck">
-          <SideNav pages={['Contact Form']}/>
+          <SideNav pages={['Contact']}/>
           <div className='PagesSection'>
           <div className='Page' id='Contact'>
             <h1 className="PageTitle">Contact</h1>

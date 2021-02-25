@@ -10,7 +10,6 @@ class ContactForm extends Component {
   render() {
     return (
       <div id="contact">
-        <h2>Reach Out</h2>
         <div className="email">
           {/* <a href={`mailto:${process.env.REACT_APP_MY_EMAIL}`}>
             <svg
