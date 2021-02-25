@@ -1,0 +1,54 @@
+.Decks{
+    width: 100%;
+}
+.Deck{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    width: 100%;
+}
+
+.Thumbnail{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 20px 30px;
+    text-decoration: none;
+}
+
+.ThumbnailTitle{
+    width: 100px;
+    height: 60px;
+    border: solid #d04423;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #008800;
+    font-weight: bold;
+}
+
+.PagesSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Page{
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    margin: 50px 50px 20px 50px;
+}
+
+
+.PageTitle{
+    text-align: left;
+    color: #008800;
+    margin: 30px 30px 0px 30px;
+}
+
+hr{
+    margin: 10px 30px;
+    border-top: solid 2px #008800;
+}

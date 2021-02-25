@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import "../styles/Contact.css";
 
-class Contact extends Component {
+class ContactForm extends Component {
   constructor(props) {
     super(props);
     this.state = { name: "", message: "", email: "", success: false };
@@ -90,7 +90,7 @@ class Contact extends Component {
               />
             </fieldset>
 
-            <button id='send'>Send</button>
+            <button id='submit'>Submit</button>
   
 
       
@@ -110,4 +110,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default ContactForm;
