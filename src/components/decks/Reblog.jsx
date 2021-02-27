@@ -20,10 +20,9 @@ class Reblog extends Component {
   componentDidMount = async () => {
     const res = await getData();
     const resLatestFirst = res.reverse();
-    console.log(res)
-    const articles = resLatestFirst.filter(r => r.gsx$resourcetype.$t == 'Article')
-    const podcasts = resLatestFirst.filter(r => r.gsx$resourcetype.$t == 'Podcast')
-    const videos = resLatestFirst.filter(r => r.gsx$resourcetype.$t == 'Video')
+    const articles = resLatestFirst.filter(r => r.gsx$resourcetype.$t === 'Article')
+    const podcasts = resLatestFirst.filter(r => r.gsx$resourcetype.$t === 'Podcast')
+    const videos = resLatestFirst.filter(r => r.gsx$resourcetype.$t === 'Video')
 
     this.setState({
       articles: articles,
