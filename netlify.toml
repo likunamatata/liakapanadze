@@ -1,6 +1,3 @@
-[build]
-    CI = true npm run build
-
 [[redirects]]
   from = "/old-path"
   to = "/new-path"
