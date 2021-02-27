@@ -1,0 +1,44 @@
+/* iframe{
+    width: 50%;
+    height: 100px;
+} */
+
+h4,p{
+    margin: 0px;
+}
+
+.podcastBox{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px 0px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(200,200,200,0.8);
+}
+
+.podcastText{
+    text-align: left;
+}
+
+.podcastPreview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.podcastSummary{
+    text-align: left;
+    width: 50%;
+}
+
+.podcastLink{
+    width: 30%;
+}
+
+iframe{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}

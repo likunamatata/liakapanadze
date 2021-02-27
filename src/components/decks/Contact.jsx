@@ -4,7 +4,7 @@ import ContactForm from '../ContactForm'
 import '../../styles/Contact.css'
 
 
-function Reblog () {
+function Contact () {
  
     return (
       <div className="Deck">
@@ -22,4 +22,4 @@ function Reblog () {
 
 }
 
-export default Reblog;
+export default Contact;
