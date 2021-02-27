@@ -6,3 +6,67 @@
     align-items: center;
     overflow: scroll;
 }
+
+/* iframe{
+    width: 50%;
+    height: 100px;
+} */
+
+h4,p{
+    margin: 0px;
+}
+
+.blogBox{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px 0px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(200,200,200,0.8);
+}
+
+.blogText{
+    text-align: left;
+}
+
+.blogPreview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.blogTitle{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3366cc;
+}
+
+.blogCredit{
+    font-style: italic;
+}
+.podcastSummary{
+    text-align: left;
+    width: 50%;
+}
+
+.podcastLink{
+    width: 30%;
+}
+
+iframe{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.articleSummary{
+    text-align: left;
+}
+
+h4{
+    text-align: left;
+    margin: 0px 30px;
+}

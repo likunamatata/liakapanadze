@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../../styles/Reblog.css'
 
 
-class Podcasts extends Component {
+class Articles extends Component {
     constructor(props) {
         super();
         this.state = {
@@ -12,7 +12,7 @@ class Podcasts extends Component {
  
     render(){
         const {data} = this.state
-        const podcasts = data.map( (p, index) => {
+        const articles = data.map( (p, index) => {
             return(
                 <div className="blogBox" key={index}>
                     <div className="blogText">
@@ -20,20 +20,19 @@ class Podcasts extends Component {
                         <p className="blogCredit">{`Via ${p.gsx$source.$t} By ${p.gsx$author.$t}`}</p>
                     </div>
                     <div className="blogPreview">
-                    <p dangerouslySetInnerHTML={{__html: p.gsx$embed.$t}} />
-                    <p className="podcastSummary">{p.gsx$summary.$t}</p>
+                        <p className="articleSummary">{p.gsx$summary.$t}</p>
                    </div>
                 </div>
 
         )}
         )
         return (
-        <div className="blogPage" id='podcasts'>
-            {podcasts}
+        <div className="blogPage" id='articles'>
+            {articles}
         </div>
         );
     }
 
 }
 
-export default Podcasts;
+export default Articles;
