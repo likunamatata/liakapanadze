@@ -1,6 +1,6 @@
 [build]
     CI = true npm run build
-# A redirect rule with many of the supported properties
+
 [[redirects]]
   from = "/old-path"
   to = "/new-path"
