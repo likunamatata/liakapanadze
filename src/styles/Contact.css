@@ -1,21 +1,27 @@
 fieldset{
     border: none;
+    text-align: center;
   }
   
 input, textarea{
     border: none;
-    box-shadow: 10px 5px 5px lightgrey;
-    padding: 20px;
-    width: 200px;
-    font-size: 10px;
-    width: 60%;
+    box-shadow: 5px 5px 5px 5px rgba(200,200,200,0.8);
+    padding: 10px 10px;
+    margin: 15px 0px;
+    font-size: 16px;
+    width: 90%;
   }
+
+#message{
+  height: 100px;
+}
   
 #submit{
     border: none;
-    box-shadow: 10px 5px 5px lightgrey;
-    font-size: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(200,200,200,0.8);
+    font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
-    /* border-radius: 5px; */
+    border-radius: 5px;
+    color: (200,200,200);
   }
