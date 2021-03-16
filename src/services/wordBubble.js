@@ -15,6 +15,7 @@ export const wordBubble = () => {
 
   toolkit.toolkit.map(function (word) {
     words_object[word] = !words_object[word] ? 1 : words_object[word]+1
+    return words_object[word]
   })
 
   for (let i = 0; i < Object.keys(words_object).length; i++){
@@ -61,6 +62,5 @@ function draw(words) {
       .text(function(d) { return d.text; })
       ;
 }
-
 
 }

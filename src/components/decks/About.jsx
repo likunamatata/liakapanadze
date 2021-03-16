@@ -5,9 +5,6 @@ import { wordBubble } from '../../services/wordBubble'
 
 
 class About extends Component {
-  constructor() {
-    super();
-  }
 
   componentDidMount() {
     wordBubble()
